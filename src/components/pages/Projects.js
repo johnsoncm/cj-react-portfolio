@@ -1,5 +1,5 @@
 import React from 'react';
-import NavTabs from '../NavTabs';
+// import NavTabs from '../NavTabs';
 
 
 //Projects go here
@@ -14,7 +14,7 @@ export default function Projects() {
                     <h3>National Park Finder</h3>
                     <p>A searchable map to find Historic Sites near you</p>
                 </header>
-                <a href="https://epurpur.github.io/NationalParkService/"></a><a className="link primary">
+                <a href="https://epurpur.github.io/NationalParkService/"></a>Repo Link<a className="link primary">
                 </a>
                 
             </article>

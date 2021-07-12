@@ -1,7 +1,7 @@
 import React from 'react';
 
 //import header.css doc here
-// import Style from '.../components/style.css'
+// import Style from ''
  
 //Home page goes here
 
