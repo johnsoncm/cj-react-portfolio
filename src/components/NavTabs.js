@@ -1,12 +1,14 @@
-//import react
+// import react
 import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
+    console.log(handlePageChange, 'hello')
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
                 <a href="#home"
                  onClick={() => handlePageChange('Home')}
+                 
 
                  className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                 >

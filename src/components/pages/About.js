@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../../assets/images/Casey_portfolio_image.cropped.png'
 
 
-function About() {
+export default function About() {
     return (
         <section className="container">
             <h3 className="about-title">Casey Johnson - Full Stack Developer</h3>
@@ -28,5 +28,3 @@ function About() {
         </section>
     )
 }
-
-export default About;
