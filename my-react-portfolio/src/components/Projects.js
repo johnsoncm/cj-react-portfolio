@@ -1,14 +1,10 @@
 import React from 'react';
-// import NavTabs from '../NavTabs';
-import parkImage from '../../assets/images/NPS_3.png'
-import cadmiumImage from '../../assets/images/Berto_Chicago_install.png';
-import pwGeneratorImage from '../../assets/images/PW_Generator_Image.png';
-import teamImage from '../../assets/images/Team_Website.png';
-import workImage from '../../assets/images/Work_schedular_2.png';
-import fitnessImage from '../../assets/images/workout-tracker1.png';
-
-
-//Projects go here
+import parkImage from '../assets/images/NPS_3.png';
+import cadmiumImage from '../assets/images/Berto_Chicago_install.png';
+import pwGeneratorImage from '../assets/images/PW_Generator_Image.png';
+import teamImage from '../assets/images/Team_Website.png';
+import workImage from '../assets/images/Work_schedular_2.png';
+import fitnessImage from '../assets/images/workout-tracker1.png';
 
 export default function Projects() {
     return (
@@ -68,14 +64,3 @@ export default function Projects() {
 
     )
 }
-
-// export default Projects;
-
-// // function Projects () {
-// //     const projects = [
-// //         name: 
-// //         image:
-// //         link:
-// //         github:
-// //     ]
-// // }
