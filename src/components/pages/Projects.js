@@ -17,7 +17,7 @@ export default function Projects() {
         <section id="one" className="tiles">
             <article style={parkImage}>
                 <header className="major">
-                    <h3>National Park Finder</h3>
+                    <h3 style={{color: 'red'}}>National Park Finder</h3>
                     <p>A searchable map to find Historic Sites near you</p>
                 </header>
                 <a href="https://epurpur.github.io/NationalParkService/"></a>Repo Link<a className="link primary">

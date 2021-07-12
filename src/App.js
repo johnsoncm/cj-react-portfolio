@@ -13,7 +13,9 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
-import NavTabs from './components/NavTabs';
+import PortfolioContainer from './components/PortfolioContainer';
+// import NavTabs from './components/NavTabs';
+// import PortfolioContainer from './components/PortfolioContainer';
 //import navbar
 //import footerfun
 //import contactform
@@ -23,7 +25,7 @@ function App() {
     return (
         <div>
             <Router>
-                <NavTabs />
+                <PortfolioContainer />
                 <Switch>
                     <Route path="/" exact component={Home}/>
                     <Route path="/projects" exact component={Projects}/>
