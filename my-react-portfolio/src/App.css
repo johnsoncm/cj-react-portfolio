@@ -1,13 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Bungee+Hairline&family=Bungee+Outline&family=Cuprum&family=Monofett&family=Monoton&family=Orbitron&family=Raleway+Dots&display=swap");
+
 body{
   background-image: url('https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
-.cj-image{
+.about-image-container{
   display: flex;
   justify-content: center;
-  padding-top: 55px;
 }
 
 .nav-tabs{
-color: red;
+display: flex;
+flex-direction: row-reverse;
+justify-content:space-around;
+font-size:40px;
+}
+.nav-item{
+  display: flex;
+  flex-direction: row-reverse;
+} 
+
+ .about-title{
+  font-family: 'Bungee Hairline';
+  text-align: center;
+  font-size: 60px;
+} 
+
+.about-name{
+  font-family: 'Monofett';
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: -50px;
+  
+}
+
+.nav-link{
+  font-family: 'Bungee Hairline';
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.about-text{
+  font-family: 'avenir';
+  font-size: 20px;
+  /* padding-top: 5px; */
+  padding-left:350px;
+  padding-right: 350px;
+}
+
+.resume-link{
+  font-family: "Monofett";
+  color: 'black'!;
+  text-decoration: none!;
+  text-align: center;
+  font-size: 70px;
+
+}
+
+
+.card-img{
+  padding-left: 50px;
+}
+
+.project-style{
+  font-family: 'bungee hairline';
+  font-weight: bolder;
+}
+
+.resume-heading{
+  font-family: 'bungee hairline';
+  font-weight: bolder;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.lang-list{
+  font-family: 'avenir';
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 50px;
+
 }

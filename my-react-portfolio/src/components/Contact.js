@@ -2,6 +2,9 @@ import React from 'react';
 
 export default function Contact() {
     return (
+        
+        
+        
         <div>
             <footer id="footer">
                 <div className="inner">

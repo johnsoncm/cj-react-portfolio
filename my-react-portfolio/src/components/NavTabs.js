@@ -13,12 +13,12 @@ export default function ({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li className="nav-item">
-                <a href="#about"
-                onClick={() => handlePageChange('About')}
+                <a href="#resume"
+                onClick={() => handlePageChange('Resume')}
 
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
-                    About
+                    Resume
 
                 </a>
             </li>

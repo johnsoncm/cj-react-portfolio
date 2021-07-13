@@ -31,8 +31,8 @@
 
 import React from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
-import styles from '../src/App.css';
+import './App.css';
  
-const App = () => <PortfolioContainer />; <styles/>
+const App = () => <PortfolioContainer />;
 
 export default App;
