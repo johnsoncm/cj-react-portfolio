@@ -55,7 +55,7 @@ function Projects(){
 
     return (
         <section className="card-container">
-            <h2 className="project-style">Projects</h2>
+            <h2 className="project-style">Portfolio</h2>
 
             {projects.map((projects, index) => (
                 <div className="card" key={projects.name}>
