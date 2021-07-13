@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../assets/images/Casey_portfolio_image.cropped.png';
+import '../../src/App.css';
 
 export default function About() {
     return (
