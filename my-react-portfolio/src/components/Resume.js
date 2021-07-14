@@ -1,10 +1,18 @@
 import React from 'react';
 import '../../src/App.css';
 
+const mystyle = {
+    fontFamily: "Monofett",
+    color: 'black',
+    textDecorationLine: "none",
+    textAlign: "center",
+    fontSize: "70px"
+  }
+
 export default function Resume() {
     return (
       <div className="resume">
-          <h2 className="resume-link">  <a className="resume-link2" href='../assets/images/Casey_Johnson_Resume_6.15.21.pdf'>Link to Resume</a> </h2>
+          <h2 className="resume-link" style={{mystyle}}>  <a className="resume-link2" href='https://docs.google.com/document/d/1BXPOifL64DtICmt1H3of6APTad30pTHWIlFAwMLyk9g/edit'>Link to Resume</a> </h2>
 
           <h3 className="resume-heading">Front End Languages</h3>
           <ul className="lang-list">

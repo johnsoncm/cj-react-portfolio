@@ -2,75 +2,82 @@ import React from 'react';
 import parkImage from '../assets/images/NPS_3.png';
 import cadmiumImage from '../assets/images/Berto_Chicago_install.png';
 import pwGeneratorImage from '../assets/images/PW_Generator_Image.png';
-import teamImage from '../assets/images/Team_Website.png';
-import workImage from '../assets/images/Work_schedular_2.png';
-import fitnessImage from '../assets/images/workout-tracker1.png';
+import budgetImage from '../assets/images/Budget-Tracker.png';
+// import teamImage from '../assets/images/Team_Website.png';
+import workImage from '../assets/images/Work-day-scheduler.png';
+import fitnessImage from '../assets/images/Workout-Tracker.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const styles = {
+    cardStyle: {
+        width: '25rem',
+        backgroundColor: 'transparent',
+        borderColor: 'black',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(2, 1fr)',
+        gridTemplateRows: 'auto',
+        gridGap: '5rem'
+    },
+    // cardGridStyle: {
+        
+
+
+    // }
+  
+
+}
 
 function Projects(){
-    const projects = [
-        {
-            name: "National Park Service Finder",
-            image: parkImage,
-            description: "its an app",
-            deployedLink: "https://epurpur.github.io/NationalParkService/",
-            githubLink: "https://github.com/epurpur/Project1_NationalParkService"
-        },
+    return(
 
-        {
-            name: "Cadmium",
-            image: cadmiumImage,
-            description: "its an app",
-            deployedLink: "https://ancient-lowlands-14789.herokuapp.com/",
-            githubLink: "https://github.com/johnsoncm/cadmium"
-        },
-        {
-            name: "Password Generator",
-            image: pwGeneratorImage,
-            description: "its an app",
-            deployedLink: "https://johnsoncm.github.io/passwordgenerator/",
-            githubLink: "https://github.com/johnsoncm/passwordgenerator"
-        },
-        {
-            name: "Team Profile Generator",
-            image: teamImage,
-            description: "its an app",
-            deployedLink: "https://drive.google.com/file/d/104mIjCfjrItyHMCc-p1ILFkLdlIZft8J/view",
-            githubLink: "https://github.com/johnsoncm/Team_Profile_Generator"
-        },
-        {
-            name: "Work Day Scheduler",
-            image: workImage,
-            description: "its an app",
-            deployedLink: "https://johnsoncm.github.io/daily-planner/",
-            githubLink: "https://github.com/johnsoncm/daily-planner"
-        },
-        {
-            name: "Fitness Tracker",
-            image: fitnessImage,
-            description: "its an app",
-            deployedLink: "https://lit-lake-33755.herokuapp.com/",
-            githubLink: "https://github.com/johnsoncm/workout-tracker"
-        },
-    ];
+    <div className="card mb-4 border-0" style={styles.cardStyle}>
+        <h3>Portfolio</h3>
+    <img className="card-img-top" src={cadmiumImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">Cadmium</h5>
+      <p className="card-text">An art event finding app for the city of Richmond, VA</p>
+      <a href="https://github.com/johnsoncm/cadmium" className="btn btn-primary">Github Link</a>
+      <a href="https://ancient-lowlands-14789.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
 
-    return (
-        <section className="card-container">
-            <h2 className="project-style">Portfolio</h2>
+    <img className="card-img-top" src={parkImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">National Park Service Finder</h5>
+      <p className="card-text">A searchable map to find Historic Sites near you</p>
+      <a href="https://github.com/epurpur/Project1_NationalParkService" className="btn btn-primary">Github Link</a>
+      <a href="https://epurpur.github.io/NationalParkService/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
+    <img className="card-img-top" src={pwGeneratorImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">Password Generator</h5>
+      <p className="card-text">Generate a secure random password quickly and easily</p>
+      <a href="https://github.com/johnsoncm/passwordgenerator" className="btn btn-primary">Github Link</a>
+      <a href="https://johnsoncm.github.io/passwordgenerator/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
+    <img className="card-img-top" src={budgetImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">Budget Tracker</h5>
+      <p className="card-text">Keep track of your finances both on and offline</p>
+      <a href="https://github.com/johnsoncm/pwa-budget-tracker" className="btn btn-primary">Github Link</a>
+      <a href="https://damp-woodland-46122.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
+    <img className="card-img-top" src={workImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">Work Day Scheduler</h5>
+      <p className="card-text">Keep track of your daily tasks</p>
+      <a href="https://github.com/johnsoncm/daily-planner" className="btn btn-primary">Github Link</a>
+      <a href="https://johnsoncm.github.io/daily-planner/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
+    <img className="card-img-top" src={fitnessImage} alt="Card cap"/>
+    <div className="card-body">
+      <h5 className="card-title">Workout Tracker</h5>
+      <p className="card-text">Create, view, and track your workouts</p>
+      <a href="https://github.com/johnsoncm/workout-tracker" className="btn btn-primary">Github Link</a>
+      <a href="https://lit-lake-33755.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+    </div>
 
-            {projects.map((projects, index) => (
-                <div className="card" key={projects.name}>
-                    <img className="card-img" src={projects.image} alt=""/>
-                    <div className="card-body">
-                  
-                    </div>
-                </div>
-            ))}
-
-
-
-        </section>
-    );
-
+  </div>
+    )
 }
 export default Projects;
 

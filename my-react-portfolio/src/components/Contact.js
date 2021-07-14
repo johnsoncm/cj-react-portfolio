@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <form>
-        <h1>Contact Me!</h1>
+        <form className="form-styling">
+        <h1 className="contact-me">Contact Me!</h1>
         <input className="fName" type="text" name="name" placeholder="Full Name">
         </input>
         <input type="text" name="name" placeholder="Email">
@@ -13,7 +13,7 @@ export default function Contact() {
         <input type="text" name="name" placeholder="Website"></input>
         <p>Message</p>
         <textarea rows="4"></textarea>
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-button">Submit</button>
     </form>
         
       )

@@ -3,6 +3,10 @@
 
 body{
   background-image: url('https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-image-container{
@@ -40,6 +44,8 @@ font-size:40px;
   text-decoration: none;
   font-weight: bolder;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-text{
@@ -50,27 +56,37 @@ font-size:40px;
   padding-right: 350px;
 }
 
-.resume-link{
+.resume-link {
   font-family: "Monofett";
-  color: 'black'!;
-  text-decoration: none!;
   text-align: center;
   font-size: 70px;
 
 }
 
+.resume-link2{
+  color: #000;
+  text-decoration: none !important;
+}
 
 .card-img{
   padding-left: 50px;
 }
 
 .project-style{
-  font-family: 'bungee hairline';
+  font-family: 'Monofett';
   font-weight: bolder;
   text-align: center;
-  padding-top: 100px;
-  font-size: 150px!;
+  padding-top: 50px;
+  font-size: 80px;
  
+}
+
+.contact-me{
+  font-family: 'Monofett';
+  font-weight: bolder;
+  text-align: center;
+  padding-top:25px;
+  font-size: 80px;
 }
 
 .resume-heading{
@@ -91,16 +107,160 @@ font-size:40px;
 
 }
 
-.card-img{
-
-
+.btn-primary{
+  margin-right: 25px;
 }
+
 .card{
   text-align: center;
   padding-top: 65px;
+  font-family: 'avenir';
+  color: black;
+border: none;
 
 }
-/* .card-body{
-  text-align: center;
 
+
+
+.card:visited{
+  color: black;
+}
+
+.card-text-style{
+  color: black;
+  font-size: 40px;
+ 
+}
+
+.card, .card-body{
+ max-width: 100%;
+ height: auto;
+
+ 
+  
+}
+
+.gh-link{
+padding-bottom: 50px;
+}
+
+.project-card-description{
+  font-size: 25px;
+}
+.github-link{
+  font-size: 20px;
+  color: black;
+}
+
+
+
+.logos{
+position: absolute;
+}
+
+.form-styling{
+display: flex;
+flex-direction: column;
+padding-right: 500px;
+padding-left: 500px;
+
+}
+
+.submit-button{
+
+}
+
+/*----------------below code is taken from previous portfolio------------*/
+
+.navbar-brand-contact{
+
+  text-decoration: none;
+  color: black;
+  font-size: 45px;
+  font-family: 'Bungee Hairline';
+  font-weight: bolder;
+
+}
+
+
+.container-fluid{
+  background-color: var(--background-color2);
+}
+
+
+
+
+#contact{
+  background-color: var(--background-color2);
+}
+
+.navbar-text{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+
+} 
+/* 
+.nav-link{
+  font-size: 45px;
+  font-family: 'Bungee Hairline';
+  font-weight: bolder;
 } */
+
+
+
+/*-----------------------*/
+
+@media screen and (max-width: 600px) {
+.about-image-container{
+  width: 100%;
+}
+  
+}
+
+ul.nav li a, ul.nav li a:visited {
+  color: #000 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: #000 !important;
+}
+
+ul.nav li.active a {
+  color: #000 !important;
+}
+
+
+ul.nav li a, ul.nav li a:visited {
+  color: #anycolor !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: #anycolor !important;
+}
+
+ul.nav li.active a {
+  color: #anycolor !important;
+}
+
+
+ul.nav li a, ul.nav li a:visited {
+  color: #anycolor !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: #anycolor !important;
+}
+
+ul.nav li.active a {
+  color: #anycolor !important;
+}
+
+.nav-tabs .nav-item .nav-link.active{
+  border-color:transparent;
+  background-color: transparent;
+}
+
+.nav-tabs{
+  border-bottom:transparent;
+}

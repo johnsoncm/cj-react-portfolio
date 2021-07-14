@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ({ currentPage, handlePageChange }) {
+export default function NavTabsFunc ({ currentPage, handlePageChange }) {
     return(
         <ul className="nav nav-tabs">
             <li className="nav-item">
