@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/cj-react-portfolio/static/css/main.e1783df1.chunk.css",
+    "main.js": "/cj-react-portfolio/static/js/main.25aa2064.chunk.js",
+    "main.js.map": "/cj-react-portfolio/static/js/main.25aa2064.chunk.js.map",
+    "runtime-main.js": "/cj-react-portfolio/static/js/runtime-main.e3c56c35.js",
+    "runtime-main.js.map": "/cj-react-portfolio/static/js/runtime-main.e3c56c35.js.map",
+    "static/css/2.4be38407.chunk.css": "/cj-react-portfolio/static/css/2.4be38407.chunk.css",
+    "static/js/2.0eeda08b.chunk.js": "/cj-react-portfolio/static/js/2.0eeda08b.chunk.js",
+    "static/js/2.0eeda08b.chunk.js.map": "/cj-react-portfolio/static/js/2.0eeda08b.chunk.js.map",
+    "static/js/3.69f5a2cf.chunk.js": "/cj-react-portfolio/static/js/3.69f5a2cf.chunk.js",
+    "static/js/3.69f5a2cf.chunk.js.map": "/cj-react-portfolio/static/js/3.69f5a2cf.chunk.js.map",
+    "index.html": "/cj-react-portfolio/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/cj-react-portfolio/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.e1783df1.chunk.css.map": "/cj-react-portfolio/static/css/main.e1783df1.chunk.css.map",
+    "static/js/2.0eeda08b.chunk.js.LICENSE.txt": "/cj-react-portfolio/static/js/2.0eeda08b.chunk.js.LICENSE.txt",
+    "static/media/Berto_Chicago_install.912974a2.png": "/cj-react-portfolio/static/media/Berto_Chicago_install.912974a2.png",
+    "static/media/Budget-Tracker.f17b9426.png": "/cj-react-portfolio/static/media/Budget-Tracker.f17b9426.png",
+    "static/media/Casey_portfolio_image.cropped.70f5364a.png": "/cj-react-portfolio/static/media/Casey_portfolio_image.cropped.70f5364a.png",
+    "static/media/NPS_3.2c5cb218.png": "/cj-react-portfolio/static/media/NPS_3.2c5cb218.png",
+    "static/media/PW_Generator_Image.4a1c143f.png": "/cj-react-portfolio/static/media/PW_Generator_Image.4a1c143f.png",
+    "static/media/Work-day-scheduler.c3b8829c.png": "/cj-react-portfolio/static/media/Work-day-scheduler.c3b8829c.png",
+    "static/media/Workout-Tracker.4d334309.png": "/cj-react-portfolio/static/media/Workout-Tracker.4d334309.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3c56c35.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.0eeda08b.chunk.js",
+    "static/css/main.e1783df1.chunk.css",
+    "static/js/main.25aa2064.chunk.js"
+  ]
+}
