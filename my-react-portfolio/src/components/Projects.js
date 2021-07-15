@@ -10,73 +10,106 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const styles = {
     cardStyle: {
-        width: '25rem',
+        width: '55rem',
         backgroundColor: 'transparent',
         borderColor: 'black',
         display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
+        gridTemplateColumns: 'repeat(3, 1fr)',
         gridTemplateRows: 'auto',
-        gridGap: '5rem'
+        gridGap: '5rem',
+     marginLeft: '415px',
+     marginTop: '55px',
+     paddingTop: '45px'
     },
-    // cardGridStyle: {
-        
 
 
-    // }
-  
 
 }
 
-function Projects(){
-    return(
+function Projects() {
+    return (
 
-    <div className="card mb-4 border-0" style={styles.cardStyle}>
-        <h3>Portfolio</h3>
-    <img className="card-img-top" src={cadmiumImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Cadmium</h5>
-      <p className="card-text">An art event finding app for the city of Richmond, VA</p>
-      <a href="https://github.com/johnsoncm/cadmium" className="btn btn-primary">Github Link</a>
-      <a href="https://ancient-lowlands-14789.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
+        <div>
+                 <h3 className="portfolio-title">Portfolio</h3>
+            <div style={styles.cardStyle}>
+           
+                <div className="row">
+                    <div className="border-card-style">
+                        <img className="card-img-top" src={cadmiumImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Cadmium</h5>
+                            <p className="card-text">An art event finding app for the city of Richmond, VA</p>
+                            <a href="https://github.com/johnsoncm/cadmium" className="btn btn-primary">Github Link</a>
+                            <a href="https://ancient-lowlands-14789.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
 
-    <img className="card-img-top" src={parkImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">National Park Service Finder</h5>
-      <p className="card-text">A searchable map to find Historic Sites near you</p>
-      <a href="https://github.com/epurpur/Project1_NationalParkService" className="btn btn-primary">Github Link</a>
-      <a href="https://epurpur.github.io/NationalParkService/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
-    <img className="card-img-top" src={pwGeneratorImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Password Generator</h5>
-      <p className="card-text">Generate a secure random password quickly and easily</p>
-      <a href="https://github.com/johnsoncm/passwordgenerator" className="btn btn-primary">Github Link</a>
-      <a href="https://johnsoncm.github.io/passwordgenerator/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
-    <img className="card-img-top" src={budgetImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Budget Tracker</h5>
-      <p className="card-text">Keep track of your finances both on and offline</p>
-      <a href="https://github.com/johnsoncm/pwa-budget-tracker" className="btn btn-primary">Github Link</a>
-      <a href="https://damp-woodland-46122.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
-    <img className="card-img-top" src={workImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Work Day Scheduler</h5>
-      <p className="card-text">Keep track of your daily tasks</p>
-      <a href="https://github.com/johnsoncm/daily-planner" className="btn btn-primary">Github Link</a>
-      <a href="https://johnsoncm.github.io/daily-planner/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
-    <img className="card-img-top" src={fitnessImage} alt="Card cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Workout Tracker</h5>
-      <p className="card-text">Create, view, and track your workouts</p>
-      <a href="https://github.com/johnsoncm/workout-tracker" className="btn btn-primary">Github Link</a>
-      <a href="https://lit-lake-33755.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
-    </div>
+                <div className="row">
+                    <div >
+                        <img className="card-img-top" src={parkImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">National Park Service Finder</h5>
+                            <p className="card-text">A searchable map to find Historic Sites near you</p>
+                            <a href="https://github.com/epurpur/Project1_NationalParkService" className="btn btn-primary">Github Link</a>
+                            <a href="https://epurpur.github.io/NationalParkService/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
 
-  </div>
+                <div className="row">
+                    <div >
+                        <img className="card-img-top" src={pwGeneratorImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Password Generator</h5>
+                            <p className="card-text">Generate a secure random password quickly and easily</p>
+                            <a href="https://github.com/johnsoncm/passwordgenerator" className="btn btn-primary">Github Link</a>
+                            <a href="https://johnsoncm.github.io/passwordgenerator/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="row">
+                    <div >
+                        <img className="card-img-top" src={budgetImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Budget Tracker</h5>
+                            <p className="card-text">Keep track of your finances both on and offline</p>
+                            <a href="https://github.com/johnsoncm/pwa-budget-tracker" className="btn btn-primary">Github Link</a>
+                            <a href="https://damp-woodland-46122.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="row">
+                    <div >
+                        <img className="card-img-top" src={workImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Work Day Scheduler</h5>
+                            <p className="card-text">Keep track of your daily tasks</p>
+                            <a href="https://github.com/johnsoncm/daily-planner" className="btn btn-primary">Github Link</a>
+                            <a href="https://johnsoncm.github.io/daily-planner/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div >
+                        <img className="card-img-top" src={fitnessImage} alt="Card cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Workout Tracker</h5>
+                            <p className="card-text">Create, view, and track your workouts</p>
+                            <a href="https://github.com/johnsoncm/workout-tracker" className="btn btn-primary">Github Link</a>
+                            <a href="https://lit-lake-33755.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     )
 }
 export default Projects;
@@ -87,7 +120,7 @@ export default Projects;
 
 // export default function Projects() {
 //     return (
-        
+
 //         <div id="main">
 //         <section id="one" className="tiles">
 //             <article style={parkImage} alt="national park">
@@ -97,7 +130,7 @@ export default Projects;
 //                 </header>
 //                 <a href="https://epurpur.github.io/NationalParkService/"></a>Repo Link<a className="link primary">
 //                 </a>
-                
+
 //             </article>
 //             <div style={cadmiumImage} alt="art gallery">
 //                 <header className="major">
@@ -138,7 +171,7 @@ export default Projects;
 //                 <a href="https://drive.google.com/file/d/104mIjCfjrItyHMCc-p1ILFkLdlIZft8J/view"></a>
 //             </article>
 //         </section>
-        
+
 //     </div>
 
 //     )

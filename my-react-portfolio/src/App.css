@@ -14,21 +14,44 @@ body{
   justify-content: center;
 }
 
+/*----------Navbar styling-----------*/
+
+/*--------overwrighting bootstrap navbar styles-------*/
+ul.nav li a, ul.nav li a:visited {
+  color: #000 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+  color: #000 !important;
+}
+
+ul.nav li.active a {
+  color: #000 !important;
+}
+
+.nav-tabs .nav-item .nav-link.active{
+  border-color:transparent;
+  background-color: transparent;
+}
+
+.nav-tabs{
+  border-bottom:transparent;
+}
+
+
 .nav-tabs{
 display: flex;
 flex-direction: row-reverse;
 justify-content:space-around;
 font-size:40px;
 }
-.nav-item{
-  display: flex;
-  flex-direction: row-reverse;
-} 
 
  .about-title{
   font-family: 'Bungee Hairline';
   text-align: center;
   font-size: 60px;
+  padding-bottom: 30px;
+  
 } 
 
 .about-name{
@@ -51,9 +74,10 @@ font-size:40px;
 .about-text{
   font-family: 'avenir';
   font-size: 20px;
+  padding-bottom: 250px;
   /* padding-top: 5px; */
-  padding-left:350px;
-  padding-right: 350px;
+  /* padding-left:350px;
+  padding-right: 350px; */
 }
 
 .resume-link {
@@ -68,19 +92,9 @@ font-size:40px;
   text-decoration: none !important;
 }
 
-.card-img{
-  padding-left: 50px;
-}
 
-.project-style{
-  font-family: 'Monofett';
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 80px;
- 
-}
 
+/*----------------Contact page styling----------------*/
 .contact-me{
   font-family: 'Monofett';
   font-weight: bolder;
@@ -88,6 +102,8 @@ font-size:40px;
   padding-top:25px;
   font-size: 80px;
 }
+
+/*-------------resume page styling-------------*/
 
 .resume-heading{
   font-family: 'bungee hairline';
@@ -107,8 +123,31 @@ font-size:40px;
 
 }
 
-.btn-primary{
-  margin-right: 25px;
+
+/*--------project styling---------------*/
+
+.portfolio-title{
+  font-family:'Monofett';
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 25px;
+  padding-top: 45px;
+}
+
+.project-style{
+  font-family: 'Monofett';
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
+ 
+}
+
+a.btn{
+  margin-right: 5px;
+  background-color: lightgreen;
+  color: black;
+  border-color: black;
 }
 
 .card{
@@ -116,11 +155,12 @@ font-size:40px;
   padding-top: 65px;
   font-family: 'avenir';
   color: black;
-border: none;
-
+border: black 2px;
 }
 
-
+.border-card-style{
+  border: black 5px;
+}
 
 .card:visited{
   color: black;
@@ -135,9 +175,6 @@ border: none;
 .card, .card-body{
  max-width: 100%;
  height: auto;
-
- 
-  
 }
 
 .gh-link{
@@ -154,62 +191,17 @@ padding-bottom: 50px;
 
 
 
-.logos{
-position: absolute;
-}
 
-.form-styling{
-display: flex;
-flex-direction: column;
-padding-right: 500px;
-padding-left: 500px;
-
-}
-
-.submit-button{
-
-}
-
-/*----------------below code is taken from previous portfolio------------*/
-
-.navbar-brand-contact{
-
-  text-decoration: none;
-  color: black;
-  font-size: 45px;
-  font-family: 'Bungee Hairline';
-  font-weight: bolder;
-
-}
-
-
-.container-fluid{
-  background-color: var(--background-color2);
-}
-
-
-
-
-#contact{
-  background-color: var(--background-color2);
-}
-
+/***-----puts logos vertical if left out------*/
 .navbar-text{
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
 
 } 
-/* 
-.nav-link{
-  font-size: 45px;
-  font-family: 'Bungee Hairline';
-  font-weight: bolder;
-} */
 
 
-
-/*-----------------------*/
+/*---------Media queries--------------*/
 
 @media screen and (max-width: 600px) {
 .about-image-container{
@@ -218,49 +210,4 @@ padding-left: 500px;
   
 }
 
-ul.nav li a, ul.nav li a:visited {
-  color: #000 !important;
-}
 
-ul.nav li a:hover, ul.nav li a:active {
-  color: #000 !important;
-}
-
-ul.nav li.active a {
-  color: #000 !important;
-}
-
-
-ul.nav li a, ul.nav li a:visited {
-  color: #anycolor !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-  color: #anycolor !important;
-}
-
-ul.nav li.active a {
-  color: #anycolor !important;
-}
-
-
-ul.nav li a, ul.nav li a:visited {
-  color: #anycolor !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-  color: #anycolor !important;
-}
-
-ul.nav li.active a {
-  color: #anycolor !important;
-}
-
-.nav-tabs .nav-item .nav-link.active{
-  border-color:transparent;
-  background-color: transparent;
-}
-
-.nav-tabs{
-  border-bottom:transparent;
-}
