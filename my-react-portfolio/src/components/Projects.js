@@ -12,12 +12,14 @@ const styles = {
     cardStyle: {
         width: '55rem',
         backgroundColor: 'transparent',
-        borderColor: 'black',
+        // border: 'solid',
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
         gridTemplateRows: 'auto',
         gridGap: '5rem',
-     margin: '15%',
+     margin: '5%',
+     marginLeft: '25%',
+
 
     },
 
@@ -48,7 +50,7 @@ function Projects() {
                     <div >
                         <img className="card-img-top" src={parkImage} alt="Card cap" />
                         <div className="card-body">
-                            <h5 className="card-title">National Park Service Finder</h5>
+                            <h5 className="card-title">National Park Finder</h5>
                             <p className="card-text">A searchable map to find Historic Sites near you</p>
                             <a href="https://github.com/epurpur/Project1_NationalParkService" className="btn btn-primary">Github Link</a>
                             <a href="https://epurpur.github.io/NationalParkService/" className="btn btn-primary link-hover-style">App Link</a>
@@ -73,7 +75,7 @@ function Projects() {
                     <div >
                         <img className="card-img-top" src={budgetImage} alt="Card cap" />
                         <div className="card-body">
-                            <h5 className="card-title">Budget Tracker</h5>
+                            <h5 className="card-title">Budget App</h5>
                             <p className="card-text">Keep track of your finances both on and offline</p>
                             <a href="https://github.com/johnsoncm/pwa-budget-tracker" className="btn btn-primary">Github Link</a>
                             <a href="https://damp-woodland-46122.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
@@ -98,7 +100,7 @@ function Projects() {
                     <div >
                         <img className="card-img-top" src={fitnessImage} alt="Card cap" />
                         <div className="card-body">
-                            <h5 className="card-title">Workout Tracker</h5>
+                            <h5 className="card-title">Fitness Tracker</h5>
                             <p className="card-text">Create, view, and track your workouts</p>
                             <a href="https://github.com/johnsoncm/workout-tracker" className="btn btn-primary">Github Link</a>
                             <a href="https://lit-lake-33755.herokuapp.com/" className="btn btn-primary link-hover-style">App Link</a>
