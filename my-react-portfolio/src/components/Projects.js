@@ -28,9 +28,9 @@ const styles = {
 function Projects() {
     return (
 
-        <div>
+        <div className="responsive-cards">
                  <h3 className="portfolio-title">Portfolio</h3>
-            <div className="responsive-cards"style={styles.cardStyle}>
+            <div style={styles.cardStyle}>
            
                 <div className="row">
                     <div className="border-card-style">
