@@ -17,9 +17,8 @@ const styles = {
         gridTemplateColumns: 'repeat(3, 1fr)',
         gridTemplateRows: 'auto',
         gridGap: '5rem',
-     marginLeft: '415px',
-     marginTop: '55px',
-     paddingTop: '45px'
+     margin: '15%',
+
     },
 
 
@@ -31,7 +30,7 @@ function Projects() {
 
         <div>
                  <h3 className="portfolio-title">Portfolio</h3>
-            <div style={styles.cardStyle}>
+            <div className="responsive-cards"style={styles.cardStyle}>
            
                 <div className="row">
                     <div className="border-card-style">

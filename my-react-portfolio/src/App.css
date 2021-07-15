@@ -145,7 +145,7 @@ font-size:40px;
 
 a.btn{
   margin-right: 5px;
-  background-color: lightgreen;
+  background-color:lightgreen;
   color: black;
   border-color: black;
 }
@@ -204,10 +204,17 @@ padding-bottom: 50px;
 /*---------Media queries--------------*/
 
 @media screen and (max-width: 600px) {
-.about-image-container{
-  width: 100%;
+body{
+  margin: 0 auto;
+  margin-top: 20px;
 }
-  
 }
 
+@media screen and (min-width: 375px) {
+  .responsive-cards{
+
+display: flex;
+flex-direction: column;
+  }
+}
 

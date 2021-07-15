@@ -2,21 +2,23 @@ import React from 'react';
 
 const styles = {
     contactStyle: {
-     marginLeft: '350px',
-     marginRight: '350px',
+     marginLeft: '15%',
+     marginRight: '15%',
      paddingBottom: '100px'
     },
     formStyle:{
         fontFamily: 'avenir',
-        fontSize: '20px',
+        fontSize: '1.5rem',
         fontWeight: 'bolder'
     },
     buttonStyle:{
         fontFamily: 'avenir',
         fontWeight: 'bolder',
-        fontSize: '25px',
-        borderRadius: '30px',
-        backgroundColor: 'lightgreen'
+        fontSize: '1.5rem',
+        borderRadius: '1.6rem',
+        backgroundColor: 'lightgreen',
+        marginBottom: '15px',
+        
     }
 }
 
@@ -70,7 +72,7 @@ export default function Contact() {
 
             </div>
         </div>
-        <textarea rows="4" cols="82"></textarea>
+        <textarea rows="4" cols="32"></textarea>
         <button type="submit" className="submit-button" style={styles.buttonStyle}>Submit</button>
         </form>
        

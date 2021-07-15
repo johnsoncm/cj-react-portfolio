@@ -32,7 +32,7 @@ export default function Resume() {
               <li>Jest</li>
               
           </ul>
-          <h3 className="resume-heading">Additional Technologies</h3>
+          <h3 className="resume-heading">Other Technologies</h3>
           <ul className="lang-list">
           <li>Bootstrap</li>
           <li>Sequelize</li>
