@@ -4,11 +4,22 @@ import Email from '../assets/images/icons8-email-50.png'
 import LinkedIn from '../assets/images/icons8-linkedin-50.png'
 import Phone from '../assets/images/icons8-ringing-phone-50.png'
 
+const styles = {
+    footerStyle: {
+        // position: "fixed",
+        left: "0",
+        bottom: "0",
+        width: "100%",
+        // backgroundColor: "lightpink"
+        
+
+    }
+}
 
 function Footer() {
     return(
           
-        <div className="navbar navbar-expand-lg navbar-light" id="contact">
+        <div className="navbar navbar-expand-lg navbar-light" id="contact" style={styles.footerStyle}>
             <div className="container-fluid">
                 {/* <a class="navbar-brand-contact">Contact Me</a> */}
 
