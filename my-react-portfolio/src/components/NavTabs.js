@@ -31,7 +31,7 @@ export default function NavTabsFunc ({ currentPage, handlePageChange }) {
                     Projects
                 </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <a href="#contact"
                 onClick={() => handlePageChange('Contact')}
 
@@ -40,7 +40,7 @@ export default function NavTabsFunc ({ currentPage, handlePageChange }) {
                 >
                     Contact
                 </a>
-            </li>
+            </li> */}
         </ul>
        
     )
