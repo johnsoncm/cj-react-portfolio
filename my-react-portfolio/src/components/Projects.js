@@ -18,10 +18,18 @@ const styles = {
         gridTemplateRows: 'auto',
         gridGap: '5rem',
      margin: '5%',
-     marginLeft: '25%',
+     marginLeft: '30%',
 
 
     },
+    cardBody:{
+        backgroundColor: 'lightgray',
+        border: 'solid black 2px',
+        padding: '25px',
+       
+    
+    
+    }
 
 
 
@@ -37,7 +45,7 @@ function Projects() {
                 <div className="row">
                     <div className="border-card-style">
                         <img className="card-img-top" src={cadmiumImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">Cadmium</h5>
                             <p className="card-text">An art event finding app for the city of Richmond, VA</p>
                             <a href="https://github.com/johnsoncm/cadmium" className="btn btn-primary">Github Link</a>
@@ -49,7 +57,7 @@ function Projects() {
                 <div className="row">
                     <div >
                         <img className="card-img-top" src={parkImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">National Park Finder</h5>
                             <p className="card-text">A searchable map to find Historic Sites near you</p>
                             <a href="https://github.com/epurpur/Project1_NationalParkService" className="btn btn-primary">Github Link</a>
@@ -61,7 +69,7 @@ function Projects() {
                 <div className="row">
                     <div >
                         <img className="card-img-top" src={pwGeneratorImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">Password Generator</h5>
                             <p className="card-text">Generate a secure random password quickly and easily</p>
                             <a href="https://github.com/johnsoncm/passwordgenerator" className="btn btn-primary">Github Link</a>
@@ -74,7 +82,7 @@ function Projects() {
                 <div className="row">
                     <div >
                         <img className="card-img-top" src={budgetImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">Budget App</h5>
                             <p className="card-text">Keep track of your finances both on and offline</p>
                             <a href="https://github.com/johnsoncm/pwa-budget-tracker" className="btn btn-primary">Github Link</a>
@@ -87,7 +95,7 @@ function Projects() {
                 <div className="row">
                     <div >
                         <img className="card-img-top" src={workImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">Work Day Scheduler</h5>
                             <p className="card-text">Keep track of your daily tasks</p>
                             <a href="https://github.com/johnsoncm/daily-planner" className="btn btn-primary">Github Link</a>
@@ -99,7 +107,7 @@ function Projects() {
                 <div className="row">
                     <div >
                         <img className="card-img-top" src={fitnessImage} alt="Card cap" />
-                        <div className="card-body">
+                        <div className="card-body" style={styles.cardBody}>
                             <h5 className="card-title">Fitness Tracker</h5>
                             <p className="card-text">Create, view, and track your workouts</p>
                             <a href="https://github.com/johnsoncm/workout-tracker" className="btn btn-primary">Github Link</a>
